@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clove Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Roboto", sans-serif;
+      }
+
+      #Home {
+        width: 100%;
+        height: 1000px;
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)
+          ),
+          url(/Images/background.jpeg);
+        background-position: center;
+        background-size: cover;
+        padding-left: 8%;
+        padding-right: 8%;
+        box-sizing: border-box;
+      }
+      .navbar {
+        height: 12%;
+        display: flex;
+        align-items: center;
+      }
+      .logo {
+        width: 80px;
+        height: 75px;
+        cursor: pointer;
+        margin-top: 7px;
+      }
+      .menu-icon {
+        width: 30px;
+        cursor: pointer;
+        margin-left: 40px;
+      }
+      nav {
+        flex: 1;
+        text-align: right;
+      }
+      nav ul li {
+        list-style: none;
+        display: inline-block;
+        margin-left: 60px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 23px;
+      }
+      nav ul li a:hover {
+        color: #b8aaaa;
+      }
+      .row {
+        display: flex;
+        height: 88%;
+        align-items: center;
+      }
+      .col {
+        flex-basis: 50%;
+      }
+      h1 {
+        color: #fff;
+        font-size: 85px;
+      }
+      p {
+        color: #fff;
+        font-size: 11px;
+        line-height: 15px;
+      }
+      button {
+        width: 180px;
+        color: #000;
+        font-size: 18px;
+        padding: 12px 0;
+        background: white;
+        border-radius: 0;
+        border-radius: 20px;
+        outline: none;
+        margin-top: 30px;
+      }
+      button a {
+        text-decoration: none;
+        color: rgb(2, 98, 2);
+      }
+      button a:hover {
+        color: #000;
+      }
+      .card {
+        width: 200px;
+        height: 230px;
+        display: inline-block;
+        border-radius: 10px;
+        padding: 15px 25px;
+        box-sizing: border-box;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-position: center;
+        background-size: cover;
+        transition: transform 0.5s;
+      }
+
+      .card1 {
+        background-image: url(/Images/World\'s\ Forest.jpeg);
+      }
+      .card2 {
+        background-image: url(/Images/Biodiversity\ and\ Wildlife.jpeg);
+      }
+      .card3 {
+        background-image: url(/Images/Forest\ Conservation.jpeg);
+      }
+      .card4 {
+        background-image: url(/Images/Educational\ Resources.jpeg);
+      }
+      .card5 {
+        background-image: url(/Images/Maps\ and\ Interactive\ Tools.jpeg);
+      }
+      .card6 {
+        background-image: url(/Images/Photo\ and\ Video\ Galleries.jpeg);
+      }
+      .card7 {
+        background-image: url(/Images/Downloads.jpeg);
+      }
+      .card8 {
+        background-image: url(/Images/News\ and\ Updates.jpeg);
+      }
+      .card9 {
+        background-image: url(/Images/Donation.jpeg);
+      }
+      .card:hover {
+        transform: translateY(-10px);
+      }
+      h5 {
+        color: #181414;
+        text-shadow: 0 0 5px #999;
+        font-size: 16px;
+      }
+      .card p {
+        text-shadow: 0 0 15px #000;
+        font-size: 10px;
+      }
+      #element {
+        color: #b1b1b1;
+        font-size: 3.5rem;
+        font-family: "Poppins", sans-serif;
+        font-weight: 550;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="Home">
+      <div class="navbar">
+        <img src="/Images/logo.jpeg" class="logo" />
+        <nav>
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="/Aboutus.html">About Us</a></li>
+            <li><a href="/resources.html">Resources</a></li>
+            <li><a href="/contactinfo.html">Contact</a></li>
+          </ul>
+        </nav>
+        <img src="/Images/menu.png" class="menu-icon" />
+      </div>
+      <div class="row">
+        <div class="col">
+          <span id="element"></span>
+          <p>
+            Welcome to Forest Resources Explore and learn about the world's
+            forests.Our mission is to conserve and educate about forests
+          </p>
+          <button type="button"><a href="/index.html">Explore</a></button>
+        </div>
+        <div class="col">
+          <div class="card card1">
+            <h5>World's Forests</h5>
+            <p>
+              Explore the diversity of forests Detailed information about
+              different types of forests (e.g., tropical, temperate, boreal) and
+              their unique characteristics
+            </p>
+          </div>
+          <div class="card card2">
+            <h5>Biodiversity and Wildlife</h5>
+            <p>
+              Information about the flora and fauna found in forests. Details
+              about endangered species and conservation efforts.
+            </p>
+          </div>
+          <div class="card card3">
+            <h5>Forest Conservation</h5>
+            <p>
+              Resources on forest conservation strategies and practices.
+              Information on the impact of deforestation and the importance of
+              reforestation.
+            </p>
+          </div>
+          <div class="card card4">
+            <h5>Educational Resources</h5>
+            <p>
+              Articles, guides, and educational materials on forestry and
+              environmental science. Lesson plans and educational tools for
+              teachers and students.
+            </p>
+          </div>
+          <div class="card card5">
+            <h5>Maps and Interactive Tools</h5>
+            <p>
+              Interactive maps displaying global forest coverage, deforestation
+              rates, and conservation efforts. Tools for users to explore forest
+              data and statistics.
+            </p>
+          </div>
+          <div class="card card6">
+            <h5>Photo and Video Galleries</h5>
+            <p>
+              Galleries showcasing the beauty and diversity of forests. Videos
+              documenting conservation efforts and wildlife.
+            </p>
+          </div>
+          <div class="card card7">
+            <
+            <h5>Resources and Downloads</h5>
+            <p>
+              Downloadable materials, such as research reports, e-books, and
+              brochures. Links to relevant publications and research databases.
+            </p>
+          </div>
+          <div class="card card8">
+            <h5>News and Updates</h5>
+            <p>
+              Regularly updated content on forest-related news, research, and
+              events. Blog posts and articles discussing current issues and
+              developments.
+            </p>
+          </div>
+          <div class="card card9">
+            <h5>Donate and Support</h5>
+            <p>
+              Information on how users can contribute to forest conservation
+              efforts through donations, volunteering, or other means.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Welcome To Clove", "The Forest Resources"],
+        typeSpeed: 100,
+      });
+    </script>
+  </body>
+</html>

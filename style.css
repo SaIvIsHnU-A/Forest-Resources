@@ -1,0 +1,507 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  position: relative;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.page .top-bar {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-start;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #fefefe;
+  box-shadow: 10px 5px 10px 10px #0000001f;
+  margin-top: 5px;
+}
+
+.page .content {
+  display: flex;
+  gap: 8px;
+  padding: 10px 0px 10px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 60px;
+  flex: 0 0 auto;
+  margin-top: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+img {
+  height: 70px;
+  width: 75px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  margin-bottom: 3px;
+}
+
+.menuicon {
+  height: 45px;
+  width: 45px;
+  margin: 10px 5px;
+}
+.page .title {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  line-height: 25px;
+  color: #000000;
+  letter-spacing: -1px;
+  margin-bottom: 5px;
+}
+
+.page .icon-buttons {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+.page .icon {
+  position: relative;
+  width: 30px;
+  height: 50px;
+  margin: 0px 40px 15px 0px;
+}
+
+.page .tab-group {
+  align-items: flex-start;
+  padding: 25px 5px;
+  align-self: stretch;
+  width: 99vw;
+  flex: 0 0 auto;
+  display: inline-flex;
+  position: relative;
+  height: 0px;
+  padding-top: 25px;
+  justify-content: space-between;
+}
+
+.page .tab {
+  display: flex;
+  flex-direction: column;
+  width: 96px;
+  align-items: center;
+  gap: 4px;
+  padding: 8px;
+  position: relative;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #0000001a;
+}
+
+.page .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  height: 16px;
+  margin-top: -1px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  line-height: 16px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.page .title-wrapper {
+  flex-direction: column;
+  width: 96px;
+  align-items: center;
+  gap: 4px;
+  padding: 8px;
+  margin-right: -4px;
+  border-radius: 6px;
+  border: 1px solid;
+  border-color: #0000001a;
+  display: flex;
+  position: relative;
+}
+
+.page .div1 {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin: 40px 0px 126px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.page .div2 {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin: 205px 0px 0px 0px;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+
+.page .div-1 {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+}
+.page .div-2 {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-direction: column;
+}
+
+.page .title-2 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -15px;
+  font-size: 30px;
+  line-height: 55px;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+}
+
+.page .subtitle {
+  color: #00000080;
+  line-height: 16px;
+  position: relative;
+  align-self: stretch;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+  margin-left: 90px;
+}
+
+.page .button {
+  display: inline-flex;
+  align-items: center;
+  margin-top: 10px;
+  height: 25px;
+  flex: 0 0 auto;
+  flex-direction: row-reverse;
+}
+
+.page .title-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  white-space: nowrap;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.page .img {
+  position: relative;
+  width: 12px;
+  height: 12px;
+}
+
+.div-2 div a:hover {
+  color: darkgreen;
+}
+
+.page .image-container {
+  display: flex;
+  height: 360px;
+  align-items: flex-start;
+  padding: 0px 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.page .image {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+}
+
+.page .p {
+  position: absolute;
+  width: 1724px;
+  height: 16px;
+  top: 171px;
+  left: 16px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 22px;
+  white-space: nowrap;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.page .pagination {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  position: absolute;
+  top: 348px;
+  left: 856px;
+}
+
+.page .rectangle {
+  width: 20px;
+  background-color: #ffffff;
+  position: relative;
+  height: 4px;
+  border-radius: 100px;
+}
+
+.page .rectangle-2 {
+  width: 4px;
+  background-color: #0000004c;
+  position: relative;
+  height: 4px;
+  border-radius: 100px;
+}
+
+.page .avatar {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background-color: #0000001a;
+  border-radius: 40px;
+}
+
+.page .title-4 {
+  position: relative;
+  align-self: stretch;
+  height: 40px;
+  font-family: "Poppins", Helvetica;
+  font-size: 25px;
+  line-height: 35px;
+  color: #000000;
+  text-align: center;
+}
+
+.page .subtitle-2 {
+  height: 16px;
+  color: #00000080;
+  font-family: "Roboto-Regular", Helvetica;
+  font-size: 15px;
+}
+
+.page .list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0px 12px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.page .article {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.page .image-wrapper {
+  display: flex;
+  width: 80px;
+  height: 80px;
+  align-items: flex-start;
+  position: relative;
+}
+
+.page .image-2 {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  flex-grow: 1;
+  background-image: url(/Types\ of\ Forest.jpeg);
+  background-repeat: no-repeat;
+  height: 30%;
+  width: 50%;
+}
+
+.page .title-5 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.page .subtitle-3 {
+  color: #00000080;
+  line-height: 20px;
+  position: relative;
+  align-self: stretch;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.page .subtitle-4 {
+  color: #000000;
+  line-height: 20px;
+  position: relative;
+  align-self: stretch;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.page .vector {
+  position: absolute;
+  width: 1756px;
+  height: 1px;
+  top: 96px;
+  left: 0;
+  object-fit: cover;
+}
+
+.page .subtitle-5 {
+  height: 60px;
+  color: #000000;
+  line-height: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  position: relative;
+  align-self: stretch;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 0;
+}
+
+.page .bottom-nav {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  box-shadow: 0px 0px 6px #0000001f;
+}
+
+.page .tab-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.page .icon-2 {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  margin-top: -1px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.page .title-6 {
+  position: relative;
+  align-self: stretch;
+  height: 14px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 10px;
+  text-align: center;
+  line-height: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  color: #000000;
+  letter-spacing: 0;
+}
+
+.maindiv {
+  width: 80vw;
+  height: 75vh;
+  position: absolute;
+  left: 50%;
+  top: 61%;
+  transform: translate(-50%, -50%);
+  background-image: url(/Images/forest4.png);
+  background-size: 100% 100%;
+  animation: slider 15s infinite linear;
+  border-radius: 15px;
+}
+
+@keyframes slider {
+  0% {
+    background-image: url(https://i.pinimg.com/564x/e6/44/70/e6447033e94a844ca610ae40c8fb7971.jpg);
+  }
+  35% {
+    background-image: url(https://i.pinimg.com/564x/37/bf/b0/37bfb0b217829f72554c10d9c9ca4ad0.jpg);
+  }
+  75% {
+    background-image: url(/Images/forest1.png);
+  }
+}
